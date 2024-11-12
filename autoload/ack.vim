@@ -114,7 +114,7 @@ function! s:ApplyMappings() "{{{
   let l:closemap = ':' . l:wintype . 'close<CR>'
   let g:ack_mappings.q = l:closemap
 
-  nnoremap <buffer> <silent> ? :call <SID>QuickHelp()<CR>
+  "nnoremap <buffer> <silent> ? :call <SID>QuickHelp()<CR>
 
   if g:ack_autoclose
     " We just map the 'go' and 'gv' mappings to close on autoclose, wtf?
